@@ -1,0 +1,184 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  background: #0a0a0a;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #000000 0%, #1a0000 100%);
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 4px solid #dc2626;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 42px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #dc2626;
+  text-shadow: 0 0 20px rgba(220, 38, 38, 0.6);
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #a3a3a3;
+}
+
+nav {
+  background: #000;
+  text-align: center;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 2px solid #dc2626;
+}
+
+nav a {
+  color: #e5e5e5;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+nav a:hover { color: #dc2626; }
+
+main {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: #141414;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border-left: 4px solid #dc2626;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.15);
+}
+
+h2 {
+  color: #dc2626;
+  margin-top: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #dc2626;
+  padding-bottom: 8px;
+}
+
+h3 {
+  color: #fbbf24;
+  letter-spacing: 1px;
+}
+
+ul { padding-left: 20px; }
+.horario li { margin-bottom: 4px; }
+
+.projeto {
+  background: #1a1a1a;
+  border-left: 4px solid #fbbf24;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.tag {
+  display: inline-block;
+  background: #dc2626;
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+.tabela-wrap { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+  min-width: 500px;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+th {
+  background: #000;
+  color: #dc2626;
+  cursor: default;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+td:hover { background: #1f1f1f; }
+
+td.marcado {
+  background: #dc2626;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dica {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin-top: 15px;
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s;
+}
+
+button:hover { background: #991b1b; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-top: 2px solid #dc2626;
+  font-family: Arial, sans-serif;
+}
+
+a { color: #fbbf24; }
